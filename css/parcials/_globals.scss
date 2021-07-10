@@ -1,0 +1,18 @@
+// COLORS
+// Primary - Colors
+$color-very-dark: hsl(300, 43%, 22%);
+$color-soft: hsl(333, 80%, 67%);
+// Neutral - Colors
+$color-dark-grayish: hsl(303, 10%, 53%);
+$color-light-grayish: hsl(300, 24%, 96%);
+$color-white: hsl(0, 0%, 100%);
+// Typography
+$font-main: 'Spartan', sans-serif;
+$font-main-size: 15px;
+
+@mixin display-flex($direction: row, $content: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: center;
+}

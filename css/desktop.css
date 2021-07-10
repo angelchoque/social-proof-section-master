@@ -74,6 +74,10 @@ header {
   padding: 0;
 }
 
+.box__profile--name {
+  font-size: 12px;
+}
+
 .card__box--commentary {
   font-size: 12px;
 }
