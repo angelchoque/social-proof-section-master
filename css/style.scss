@@ -21,8 +21,10 @@ $font-main-size: 15px;
 
 body{
     width: 100%;
-    background-color: $color-white;
+    background-image: url("../images/bg-pattern-top-mobile.svg"),url("../images/bg-pattern-bottom-mobile.svg");
     font-family: $font-main;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
 }
 .container{
     width: 90%;
@@ -35,14 +37,20 @@ body{
     text-align: center;
     font-size: 28px;
     letter-spacing: .0;
+    padding: 0 20px;
 }
 .header__description{
     font-family: $font-main;
     font-weight: 500;
     color: $color-dark-grayish;
     text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    // margin-bottom: 20px;
+    line-height: 1.5
 }
 .rated{
+    margin: 20px 0;
     @include display-flex(column);
 }
 .rated__box{

@@ -1,0 +1,89 @@
+body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-position-y: top, bottom;
+  background-position-x: left, right;
+}
+
+.container {
+  width: 80%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.header {
+  width: 50%;
+  padding-right: 100px;
+}
+
+.header__title {
+  text-align: left;
+  font-size: 44px;
+  letter-spacing: -1;
+  padding: 0;
+}
+
+.header__description {
+  text-align: left;
+}
+
+.rated {
+  width: 40%;
+}
+
+.rated__box {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rated__box > span {
+  left: 20px;
+}
+
+.rated__box--text {
+  margin: 0 0 0 120px;
+}
+
+.rated__box-two {
+  margin-left: 80px;
+}
+
+.rated__box-three {
+  margin-left: 160px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__box {
+  width: 320px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__box--commentary {
+  font-size: 12px;
+}
+
+.card__box-two {
+  margin-top: 40px;
+}
+
+.card__box-three {
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=desktop.css.map */
